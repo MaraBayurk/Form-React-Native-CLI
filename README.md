@@ -1,6 +1,6 @@
 # yoFio-Challenge
 
-##Formulario realizado en React Natice CLI
+## Formulario realizado en React Natice CLI
 
 Para instalar el proyecto: npm install
 Para correr el proyecto: npx react-native run-android
