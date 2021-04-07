@@ -4,6 +4,7 @@
 
 - Para instalar el proyecto: npm install
 - Para correr el proyecto: npx react-native run-android
+- APK : /dist
 
 #### Comentarios
 - Al submitear no se esta enviando la foto debido a que el servidor responde con:
