@@ -13,3 +13,7 @@
     "message": "photo in body should match '^(?:[A-Za-z0-9+/]{4})*(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?$'"
 }
 revisé la data que se envia comprobando que cumple con ese regex pero de todas maneras me respondia ese error.
+
+
+
+[<img align="center" alt="appchallenge" src="https://i.picasion.com/pic90/16307530ee5a4fee8e09e121a4b2122b.gif"/>]
