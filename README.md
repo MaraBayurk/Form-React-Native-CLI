@@ -16,4 +16,4 @@ APK : /dist
 
 
 
-[<img align="center" alt="form-react-native" src="https://i.picasion.com/pic91/59421bb9fcf1d5cb1613346497f42449.gif"/>]
+<img align="center" alt="form-react-native" src="https://i.picasion.com/pic91/59421bb9fcf1d5cb1613346497f42449.gif"/>
