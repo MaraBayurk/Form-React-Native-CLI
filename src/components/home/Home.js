@@ -4,7 +4,7 @@ import DatePicker from 'react-native-datepicker';
 import Geolocation from '@react-native-community/geolocation';
 import styles from './styleHome'
 
-export default function Home({handleInputChange, setear, input, onSubmit, photo}) {
+export default function Home({handleInputChange, setear, input, onSubmit}) {
 
     useEffect(()=>{
         Geolocation.getCurrentPosition(
@@ -67,17 +67,17 @@ export default function Home({handleInputChange, setear, input, onSubmit, photo}
 
             <Text style={styles.titleInput}> 
                 {
-                    photo?
-                    "Repetir Selfie"
+                    input.photo?
+                    "Repetir Selfie (presiona en la foto)"
                     :
                     "Tomar Selfie"
                 } 
             </Text>
                 <TouchableOpacity onPress={()=>setear(false) } style={styles.buttonPic} >
                     {
-                        photo?
+                        input.photo?
                         <>
-                        <Image source={{uri: `data:image/png;base64,${photo}`}} style={{ width: 200, height:200, backgroundColor:"#e8e8e8" }}  />  
+                        <Image source={{uri: `data:image/png;base64,${input.photo}`}} style={{ width: 200, height:200, backgroundColor:"#e8e8e8" }}  />  
                         </>                   
                         :
                         <Text style={styles.textButtonPic}>Presiona aqui</Text>
@@ -96,12 +96,7 @@ export default function Home({handleInputChange, setear, input, onSubmit, photo}
         </View>
 
      </View>
-        <View style={styles.containerImg}>
-            <Image
-                source={require('../../../static/yoFio.webp')}
-                style={{ width: 100, height:60 }}
-            />
-        </View> 
+
     </View>
         
 </ScrollView>

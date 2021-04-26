@@ -14,7 +14,7 @@ class Cam extends PureComponent {
     if (this.camera) {
     const options = { quality: 0.5, base64: true };
     const data = await this.camera.takePictureAsync(options);
-    this.props.setPhoto(data.base64) 
+    this.props.handleInputChange("photo", data.base64) 
     this.props.setear(true)
 
     }
