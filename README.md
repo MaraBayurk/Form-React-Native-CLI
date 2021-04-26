@@ -8,9 +8,9 @@ Inputs:
 * Ubicacion en tiempo real
 
 
-Para instalar el proyecto: npm install \
+Para instalar el proyecto: npm install
 
-Para correr el proyecto: npx react-native run-android \
+Para correr el proyecto: npx react-native run-android
 
 APK : /dist 
 
