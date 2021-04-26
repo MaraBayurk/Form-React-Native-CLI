@@ -3,7 +3,6 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     containerPrinc:{
         flex:1,
-        backgroundColor:"white",
         width:"100%",
     },
     container:{
@@ -14,7 +13,7 @@ const styles = StyleSheet.create({
         margin:"5%",
     },
     title:{
-        color: '#ee4e52',
+        color: '#ed6d7f',
         fontSize: 30,
         fontWeight: '700',
         textAlign: 'center',
@@ -24,7 +23,7 @@ const styles = StyleSheet.create({
     },
     titleInput:{
         fontSize:16,
-          color: "black",
+          color: "#83d5d0",
           fontSize: 20,
           fontWeight: '700',
         marginTop:"8%"
@@ -32,7 +31,7 @@ const styles = StyleSheet.create({
     input:{
         fontSize: 15,
         borderBottomWidth: 1,
-        borderBottomColor:"#004cc8",
+        borderBottomColor:"#b84f5d",
     },
     containerButton:{
         display:"flex",
@@ -41,7 +40,7 @@ const styles = StyleSheet.create({
         marginTop:"10%"
     },
     buttonSend:{
-        backgroundColor:"#ee4e52", 
+        backgroundColor:"#ed6d7f", 
         borderRadius: 20,
         padding: "5%",
         width:"100%"
@@ -78,7 +77,7 @@ const styles = StyleSheet.create({
       buttonPic:{
         //   flex:1,
           display:"flex",
-          backgroundColor: "#004cc8",
+          // backgroundColor: "#004cc8",
           borderRadius: 20,
           justifyContent:"center",
           alignSelf: 'center',

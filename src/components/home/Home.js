@@ -59,7 +59,7 @@ export default function Home({handleInputChange, setear, input, onSubmit}) {
                     borderWidth:0,
                     textAlign:"left",
                     borderBottomWidth: 1,
-                    borderBottomColor:"#004cc8", 
+                    borderBottomColor:"#b84f5d", 
                 }
                 }}
                 onDateChange={(date) => {handleInputChange("birthDate", date)}}
@@ -80,7 +80,10 @@ export default function Home({handleInputChange, setear, input, onSubmit}) {
                         <Image source={{uri: `data:image/png;base64,${input.photo}`}} style={{ width: 200, height:200, backgroundColor:"#e8e8e8" }}  />  
                         </>                   
                         :
-                        <Text style={styles.textButtonPic}>Presiona aqui</Text>
+                        <Image
+                        source={require('../../../static/camera.png')}
+                        style={{ width: 90, height: 90, opacity:0.5 }}
+                    />
                     }
                 </TouchableOpacity>
         </View>

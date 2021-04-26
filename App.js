@@ -24,11 +24,11 @@ export default function App(){
   }
   const onSubmit= ()=>{
     setSend(true)
-    console.log("form enviado", input.name, input.lastName, input.birthDate, input.location)
-    // console.log(send)
+    // console.log("form enviado", input.name, input.lastName, input.birthDate, input.location)
   }
   return(console.log("log",send), 
-    <>{
+
+    <View style={styles.princ}>{
       send?
       <View style={styles.centeredView}>
             <Modal
@@ -66,17 +66,25 @@ export default function App(){
           <Cam handleInputChange={handleInputChange} setear={setShow} setInput={setInput}/>
       
     }
-      </>
+      </View>
   )
 }
 
 const styles = StyleSheet.create({
+    princ:{
+        flex:1,
+        backgroundColor:"white",
+        borderColor: "#83d5d0",
+        borderStyle: "solid",
+        borderWidth: 3,
+        borderRadius: 10,
+        margin:7
+    },
   centeredView: {
       flex: 1,
       justifyContent: "center",
       alignItems: "center",
-      marginTop: 22,
-      backgroundColor:"#ff002b6b"
+      backgroundColor:"#83d5d0",
   },
   modalView: {
       margin: 20,
@@ -105,7 +113,7 @@ const styles = StyleSheet.create({
       backgroundColor: "#252161",
   },
   buttonClose: {
-      backgroundColor: "red",
+      backgroundColor: "#ed6d7f",
       width: 100,
       height: 50,
       borderRadius: 15,
