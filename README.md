@@ -1,6 +1,5 @@
 # Formulario realizado en React Natice CLI
 
-**Formulario realizado en React Native CLI:\
 Inputs:
 * Nombre
 * Apellido
